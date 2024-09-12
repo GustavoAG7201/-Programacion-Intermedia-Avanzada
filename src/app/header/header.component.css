@@ -1,0 +1,26 @@
+.inicioSesion{
+    color: black;
+}
+
+.contacto{
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+.iconoHeader{
+    width: 20%;
+}
+
+header {
+    background-color: rgb(6, 68, 109);
+    
+}
