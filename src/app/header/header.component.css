@@ -10,6 +10,7 @@
 a{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
 }
 
 table{
@@ -22,5 +23,14 @@ table{
 
 header {
     background-color: rgb(6, 68, 109);
+    padding: 2px;
     
+}
+
+img{
+    width: 80%;
+}
+
+td{
+    width: 50px;
 }
