@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+    @font-face {
+    font-family: 'Bungee';
+    src: url(../public/fuentes/Bungee/Bungee-Regular.ttf);
+    }
+
+    @font-face {
+     font-family: 'Fascinate_Inline';
+     src: url(../public/fuentes/Fascinate_Inline/FascinateInline-Regular.ttf);
+        }
+
+    @font-face {
+      font-family: 'Promt';
+      src: url(../public/fuentes/Prompt/Prompt-Regular.ttf);
+        }

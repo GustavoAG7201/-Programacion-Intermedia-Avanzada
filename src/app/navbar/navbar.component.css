@@ -1,7 +1,13 @@
 a{
     text-decoration: none;
-    font-size: 10px;
+    font-family: Bungee;
+    font-size: 8px;
     color: black;
+    
+}
+
+a:hover{
+    color: whitesmoke   ;
 }
 
 table{
@@ -9,7 +15,9 @@ table{
 }
 
 nav{
-    background-color: antiquewhite;
+    /* background: linear-gradient(135deg, #1E3A8A, #FFF7C2); */
+    background: linear-gradient(135deg, #FBBF24, #6D28D9);
+
     padding-top: 5px;
 }
  

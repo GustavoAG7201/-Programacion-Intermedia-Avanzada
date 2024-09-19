@@ -9,8 +9,9 @@
 
 a{
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
+    font-family: Bungee;
+    font-size: 7px;
+    
 }
 
 table{
@@ -22,15 +23,24 @@ table{
 }
 
 header {
-    background-color: rgb(6, 68, 109);
+    background: linear-gradient(135deg, #6D28D9, #FBBF24);
     padding: 2px;
     
 }
 
-img{
-    width: 80%;
+h1{
+    font-family: Fascinate_Inline;
+    font-size: 10px;
 }
 
 td{
     width: 50px;
 }
+
+td img.iconoHeader{
+    width: 50px;
+    height: auto;
+}
+
+
+
