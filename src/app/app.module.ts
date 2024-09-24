@@ -8,17 +8,45 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 
+//!Subcomponentes de Content
+import { InicioComponent } from './content/inicio/inicio.component';
+import { ProductosComponent } from './content/productos/productos.component';
+import { PromocionesComponent } from './content/promociones/promociones.component';
+import { FavoritosComponent } from './content/favoritos/favoritos.component';
+import { ComprasComponent } from './content/compras/compras.component';
+
+//!Componentes para rutas
+import { RouterModule, Routes } from '@angular/router'; 
+
+//!Declaracion de rutas
+const appRoutes: Routes = [
+  { path: '', component: InicioComponent },
+  { path: 'inicio', component: InicioComponent },
+  { path: 'productos', component: ProductosComponent },
+  { path: 'promociones', component: PromocionesComponent },
+  { path: 'favoritos', component: FavoritosComponent },
+  { path: 'compras', component: ComprasComponent }
+  ];
+
+  
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavbarComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    InicioComponent,
+    ProductosComponent,
+    PromocionesComponent,
+    FavoritosComponent,
+    ComprasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes,{enableTracing: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
