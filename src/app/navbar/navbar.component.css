@@ -2,7 +2,7 @@ a{
     text-decoration: none;
     font-family: Bungee;
     font-size: 8px;
-    color: black;
+    color: #ffcc00;
     
 }
 
@@ -16,8 +16,8 @@ table{
 
 nav{
     /* background: linear-gradient(135deg, #1E3A8A, #FFF7C2); */
-    background: linear-gradient(135deg, #FBBF24, #6D28D9);
-
+    /* background: linear-gradient(135deg, #FBBF24, #6D28D9); */
+    background-color: #1a0032;
     padding-top: 5px;
 }
  
