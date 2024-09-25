@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,13 @@ import { ComprasComponent } from './content/compras/compras.component';
 
 //!Componentes para rutas
 import { RouterModule, Routes } from '@angular/router'; 
+
+//!Modulos de angular material
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+
+
 
 //!Declaracion de rutas
 const appRoutes: Routes = [
@@ -46,6 +54,11 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatCardModule,
+    
     RouterModule.forRoot(appRoutes,{enableTracing: true})
   ],
   providers: [],

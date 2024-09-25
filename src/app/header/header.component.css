@@ -1,4 +1,41 @@
-.inicioSesion{
+.logo{
+    height: 50px;
+    margin-right: 16px;
+}
+
+.espacio{
+    flex: 1 1 auto;
+}
+
+.fraseContenedor{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    word-wrap: break-word; /*Para que el texto se divida si no cabe en la tarjeta xd (no jalo)*/
+    font-family: Promt;
+    font-size: 10px;
+    color: whitesmoke;
+    
+}
+
+
+
+a{
+    color: #ffcc00 !important;
+    font-family: Bungee;
+    font-size: 7px;
+}
+
+header {
+    /* background: linear-gradient(135deg, #6D28D9, #FBBF24); */
+    /*? background-color: #170024;  Este color casi se acerca al original del logo*/
+    background-color: #1a0032;
+    padding: 2px;
+    
+}
+
+/*! Estilos de la primer version */
+/* .inicioSesion{
     color: black;
 }
 
@@ -46,4 +83,4 @@ td img.iconoHeader{
 }
 
 
-
+ */

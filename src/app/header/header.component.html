@@ -1,16 +1,15 @@
 <header>
-    <table>
-        <tr>
-            <td>
-             <img class="iconoHeader" src="/imagenes/logo.png" alt="">
-             <h1>Tavo Sneackers</h1>
-            </td> 
-            <td>
-                <a class="inicioSesion" ><i class="fa-solid fa-user"></i> Iniciar Sesion</a>
-                <!-- &nbsp; -->
-                 <br>
-                <a class="contacto" href="https://api.whatsapp.com/send?phone=528677520375" target="_blank"> <i class="fa-solid fa-circle-info"></i> Contacto</a>
-            </td>
-        </tr>
-    </table>
+    <mat-toolbar>
+        <img src="/imagenes/logo.png" class="logo">
+        <span class="espacio"></span>
+        <mat-card>
+            <mat-card-content class="fraseContenedor">
+                Sneakers que
+                <br>
+                hablan por ti
+            </mat-card-content>
+        </mat-card>
+        <a mat-button class="inicioSesion"> <i class="fa-solid fa-user"></i> Iniciar Sesion</a>
+        <a mat-button class="contacto" href="https://api.whatsapp.com/send?phone=528677520375" target="_blank"> <i class="fa-solid fa-circle-info"></i> Contacto</a>
+    </mat-toolbar>
 </header>
