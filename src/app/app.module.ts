@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
+
 
 //!Subcomponentes de Content
 import { InicioComponent } from './content/inicio/inicio.component';
@@ -58,6 +61,8 @@ const appRoutes: Routes = [
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
+    CarouselModule,
+    
     
     RouterModule.forRoot(appRoutes,{enableTracing: true})
   ],
