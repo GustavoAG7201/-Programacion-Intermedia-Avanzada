@@ -1,1 +1,7 @@
-<p>Este es el menu de inicio!</p>
+<owl-carousel-o [options]="{ items: 1, nav: false, dots: true }">
+    <ng-container *ngFor="let imagen of imagenes">
+    <ng-template carouselSlide>
+    <img [src]="imagen" alt="imagen">
+    </ng-template>
+    </ng-container>
+    </owl-carousel-o>

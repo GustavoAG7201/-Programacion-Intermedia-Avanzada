@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class InicioComponent {
 
+    imagenes = [
+      '/imagenes/sneaker1.jpg',
+      '/imagenes/sneaker2.jpg',
+      '/imagenes/sneaker3.jpg'
+    ]
 }

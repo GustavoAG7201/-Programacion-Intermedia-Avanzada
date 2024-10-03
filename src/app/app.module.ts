@@ -61,7 +61,7 @@ const appRoutes: Routes = [
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
-    CarouselModule,
+    CarouselModule  ,
     
     
     RouterModule.forRoot(appRoutes,{enableTracing: true})
