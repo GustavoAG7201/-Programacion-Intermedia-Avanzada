@@ -1,3 +1,38 @@
 img{
     size: 0.1%;
 }
+
+.listaDinamica1{
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 1px;
+    background-color: #1a0032;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.listaDinamica1 h5 {
+    font-family: Bungee;
+    color: #ffcc00;
+    text-align: center;
+}
+
+.articListaDinamica{
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 1px;   
+    background-color: #1a0032;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.articListaDinamica p{
+    font-family: Bungee;
+    color: #ffcc00;
+    text-align: center;
+}

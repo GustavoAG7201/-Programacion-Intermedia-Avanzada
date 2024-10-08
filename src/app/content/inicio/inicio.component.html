@@ -1,7 +1,29 @@
-<owl-carousel-o [options]="{ items: 1, nav: false, dots: true }">
-    <ng-container *ngFor="let imagen of imagenes">
-    <ng-template carouselSlide>
-    <img [src]="imagen" alt="imagen">
-    </ng-template>
-    </ng-container>
-    </owl-carousel-o>
+<!-- Carrusel de inicio -->
+<section>
+    <owl-carousel-o [options]="{ items: 1, nav: false, dots: true }">
+        <ng-container *ngFor="let imagen of imagenes">
+        <ng-template carouselSlide>
+        <img [src]="imagen" alt="imagen">
+        </ng-template>
+        </ng-container>
+        </owl-carousel-o>
+</section>
+
+    <!-- Lista dinamica -->
+    <section>
+        <div class="listaDinamica1">
+            <h5>Lo mas nuevo</h5>
+        </div>
+        <owl-carousel-o [options]="{ items: 2, dots: false,  margin: 10,
+            loop: true,
+            stagePadding: 25 }">
+            <ng-container *ngFor="let imagen2 of imagenes2">
+            <ng-template carouselSlide>
+            <img [src]="imagen2.url" alt="imagen">
+            <div class="articListaDinamica">
+                <p>{{imagen2.texto}}</p>
+            </div>
+            </ng-template>
+            </ng-container>
+            </owl-carousel-o>
+    </section>
