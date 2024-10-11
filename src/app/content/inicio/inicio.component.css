@@ -4,7 +4,8 @@ img{
 
 .listaDinamica1{
     width: 90%;
-    height: 50px;
+    /* height: 50px; */
+    min-height: 50px;
     margin: 5px;
     padding: 10px;
     padding-top: 1px;
@@ -17,15 +18,18 @@ img{
     font-family: Bungee;
     color: #ffcc00;
     text-align: center;
+    
 }
 
 .articListaDinamica{
     width: 90%;
-    height: 50px;
+    /* height: 50px; */
+    min-height: 50px;
     margin: 5px;
     padding: 10px;
     padding-top: 1px;   
-    background-color: #1a0032;
+    /* background-color: #1a0032; */
+    background-color: #E6D7   ;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     align-items: center;
@@ -36,3 +40,8 @@ img{
     color: #ffcc00;
     text-align: center;
 }
+
+/* section{
+   ! margin-bottom: 50px;  No jalo
+} */
+
