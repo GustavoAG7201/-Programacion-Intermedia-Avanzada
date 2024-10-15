@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+}
+
+.izquierda{
+    width: 40%;
+    text-align: center;
+}
+
+.derecha{
+    width: 60%;
+}
+
+img{
+    width: 40%;
+}
