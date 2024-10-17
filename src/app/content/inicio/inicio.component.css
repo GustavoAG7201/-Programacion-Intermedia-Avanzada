@@ -2,8 +2,13 @@ img{
     size: 0.1%;
 }
 
+.carruselInicio{
+    width: 100%;
+}
+
 .listaDinamica1{
-    width: 90%;
+    /* otro estilo le esta haciendo conflicto */
+    width: 100%;
     /* height: 50px; */
     min-height: 50px;
     margin: 5px;
