@@ -26,7 +26,7 @@ export class InicioComponent {
       {url:'/imagenes/sneaker10.jpg', texto: 'Sneaker10'},
       {url:'/imagenes/sneaker11.png', texto: 'Sneaker11'},
       {url:'/imagenes/sneaker12.png', texto: 'Sneaker12'},
-      {url:'/imagenes/sneaker13.png/imagenes/sneaker13.png', texto: 'Sneaker13'}
+      {url:'/imagenes/sneaker13.png', texto: 'Sneaker13'}
     ]
     
 }

@@ -9,6 +9,10 @@ table{
 
 .derecha{
     width: 60%;
+    background-color: #1a0032;
+    color: white;
+    text-align: center;
+    font-size: small;
 }
 
 img{
