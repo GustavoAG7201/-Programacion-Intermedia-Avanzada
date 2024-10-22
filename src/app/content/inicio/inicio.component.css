@@ -1,16 +1,10 @@
-/*! Ajustar esta propiedad a convenencia cuando se ejecute por primera vez la pagina  */ 
  img{
-    size: 0.5%; 
+    max-inline-size: 100%;
+    block-size: auto;
 } 
 
-.carruselInicio{
-    width: 100% !important;
-}
 
 .listaDinamica1{
-    /* otro estilo le esta haciendo conflicto */
-    width: 100%;
-    /* height: 50px; */
     margin: 5px;
     padding: 10px;
     padding-top: 1px;
@@ -27,8 +21,6 @@
 }
 
 .articListaDinamica{
-    width: 100%;
-    /* height: 50px; */
     margin: 5px;
     padding: 10px;
     padding-top: 1px;   
