@@ -13,10 +13,21 @@ table{
     color: white;
     text-align: center;
     font-size: small;
+    text-align: justify ;
 }
 
 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+p{
+    padding: 2%;
+    font-family: Promt;
+}
+
+span{
+    padding: 2%;
+    font-family: Promt;
 }

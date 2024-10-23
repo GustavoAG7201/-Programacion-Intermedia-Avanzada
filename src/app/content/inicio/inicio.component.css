@@ -13,6 +13,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.listaDinamica1 img{
+    border-radius: 10%;
+}
+
 .listaDinamica1 h5 {
     font-family: Bungee;
     color: #ffcc00;
@@ -36,8 +40,4 @@
     color: #ffcc00;
     text-align: center;
 }
-
-/* section{
-   ! margin-bottom: 50px;  No jalo
-} */
 
