@@ -14,6 +14,7 @@ table{
     text-align: center;
     font-size: small;
     text-align: justify ;
+    /* remarca los bordes de la tabla para que se separen por producto */
 }
 
 img{
@@ -25,9 +26,15 @@ img{
 p{
     padding: 2%;
     font-family: Promt;
+
+    border-radius: 5%;
+    color: white;
 }
 
 span{
     padding: 2%;
     font-family: Promt;
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
 }
