@@ -15,7 +15,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 //!Subcomponentes de Content
 import { InicioComponent } from './content/inicio/inicio.component';
 import { ProductosComponent } from './content/productos/productos.component';
-import { PromocionesComponent } from './content/promociones/promociones.component';
+import { PromocionesComponent} from './content/promociones/promociones.component';
 import { FavoritosComponent } from './content/favoritos/favoritos.component';
 import { ComprasComponent } from './content/compras/compras.component';
 
