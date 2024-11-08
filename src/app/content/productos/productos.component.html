@@ -1,20 +1,15 @@
-<div>
-    <table>
-        <!--! Producto 1 -->
-        <tr *ngFor="let producto of productos">
-            <td class="izquierda">
-                <!-- imagen0 -->
-                 <img [src]="producto.imagen">
-            </td>
-            <td class="derecha">
-                <!-- informacion -->
-                 <p>{{producto.descripcion}}</p>
-                 <span>{{producto.precio}}</span>
-                 <p>{{producto.tallas}}</p>
-            </td>
-        </tr>
-    </table>
-</div>
-
-
+<div class="product-container">
+    <div class="product-card" *ngFor="let producto of productos">
+      <div class="product-image">
+        <img [src]="producto.imagen" alt="Imagen del producto">
+      </div>
+      <div class="product-info">
+        <p>{{ producto.descripcion }}</p>
+        <span>{{ producto.precio }}</span>
+        <p>{{ producto.tallas }}</p>
+        <button class="buy-button">Comprar ahora</button>
+      </div>
+    </div>
+  </div>
+  
 

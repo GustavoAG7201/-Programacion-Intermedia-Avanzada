@@ -1,42 +1,72 @@
-table{
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 5%; 
-    
-}
-
-.izquierda{
-    width: 40%;
-    text-align: center;
-}
-
-.derecha{
-    width: 60%;
+/* Contenedor para organizar las tarjetas */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Tarjeta de producto */
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
     background-color: #1a0032;
+    border-radius: 8px;
+    overflow: hidden;
     color: white;
-    text-align: center;
-    font-size: small;
-    text-align: justify ;
-
-}
-
-img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Imagen del producto */
+  .product-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
-}
-
-p{
-    padding: 2%;
-    font-family: Promt;
-    border-radius: 5%;
-    color: white;
-}
-
-span{
-    padding: 2%;
-    font-family: Promt;
+  }
+  
+  /* Información del producto */
+  .product-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .product-info p {
+    margin: 10px 0;
+  }
+  
+  .product-info span {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 10px;
     background-color: orange;
-    border-radius: 5px;
     color: black;
-}
+    border-radius: 5px;
+    font-family:'Mona_Sans';
+  }
+  
+  /* Botón de compra */
+  .buy-button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ff6600;
+    color: #1a0032;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    font-family:'Mona_Sans';
+  }
+  
+  .buy-button:hover {
+    background-color: #e44d26;
+  }
+  

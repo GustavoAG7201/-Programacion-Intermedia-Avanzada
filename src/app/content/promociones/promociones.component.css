@@ -74,16 +74,7 @@
     margin: 5px 0;
   }
   
-  /* Additional Text Styles */
-  .limited-offer {
-    background-color: #f39c12;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
+
   .shipping {
     background-color: #2ecc71;
     color: white;

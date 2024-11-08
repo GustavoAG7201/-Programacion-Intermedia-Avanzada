@@ -13,3 +13,13 @@
       font-family: 'Promt';
       src: url(../public/fuentes/Prompt/Prompt-Regular.ttf);
         }
+
+    @font-face {
+      font-family: 'Bungee_Tint';
+      src: url(../public/fuentes/Bungee_Tint/BungeeTint-Regular.ttf);
+    }
+
+    @font-face {
+      font-family:'Mona_Sans';
+      src: url(../public/fuentes/Mona_Sans/MonaSans-VariableFont_wdth\,wght.ttf);
+    }
