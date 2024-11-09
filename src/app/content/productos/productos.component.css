@@ -1,4 +1,3 @@
-/* Contenedor para organizar las tarjetas */
 .product-container {
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +6,6 @@
     padding: 20px;
   }
   
-  /* Tarjeta de producto */
   .product-card {
     display: flex;
     flex-direction: column;
@@ -24,14 +22,14 @@
     transform: scale(1.05);
   }
   
-  /* Imagen del producto */
+  
   .product-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
   
-  /* Información del producto */
+  
   .product-info {
     padding: 15px;
     text-align: center;
@@ -51,7 +49,7 @@
     font-family:'Mona_Sans';
   }
   
-  /* Botón de compra */
+  
   .buy-button {
     margin-top: 15px;
     padding: 10px;

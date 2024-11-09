@@ -1,10 +1,10 @@
- img{
-    max-inline-size: 100%;
-    block-size: auto;
-} 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
-.listaDinamica1{
+.listaDinamica1 {
     margin: 5px;
     padding: 10px;
     padding-top: 1px;
@@ -13,32 +13,69 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.listaDinamica1 img{
+.listaDinamica1 img {
     border-radius: 10%;
+    width: 100%; 
+    height: auto;
 }
+
 
 .listaDinamica1 h5 {
     font-family: Bungee;
     color: #ffcc00;
     text-align: center;
-    
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
-.articListaDinamica{
+
+.articListaDinamica {
     margin: 5px;
     padding: 10px;
-    padding-top: 1px;   
-    /* background-color: #1a0032; */
-    background-color: #E6D7   ;
+    padding-top: 1px;
+    background-color: #E6D7;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    align-items: center;
+    text-align: center;
 }
 
-.articListaDinamica p{
+.articListaDinamica p {
     font-family: Bungee;
     color: #ffcc00;
     text-align: center;
-   
+    font-size: 1em;
+    margin: 0;
 }
 
+
+@media (max-width: 768px) {
+    .listaDinamica1 h5 {
+        font-size: 1.5em;
+    }
+    
+    .articListaDinamica p {
+        font-size: 0.9em;
+    }
+    
+    /* margenes pequeños para usar mejor el esapcio */
+    .listaDinamica1, .articListaDinamica {
+        padding: 5px;
+        margin: 3px;
+    }
+}
+
+/* Responsividad para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .listaDinamica1 h5 {
+        font-size: 1.2em;
+    }
+    
+    .articListaDinamica p {
+        font-size: 0.8em;
+    }
+    
+    /* Ajuste de tamaño y espaciado */
+    .listaDinamica1 img {
+        border-radius: 5%;
+    }
+}

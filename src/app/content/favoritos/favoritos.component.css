@@ -1,39 +1,37 @@
-/* Contenedor principal de la sección de favoritos */
 .favorites-section {
     padding: 30px;
     background-color: #f5f5f5;
     text-align: center;
   }
   
-/* Tarjeta para el texto introductorio */
 .intro-card {
-  background-color: #1a0032; /* Mismo color de fondo que las tarjetas de productos */
+  background-color: #1a0032;
   color: white;
   border-radius: 8px;
   padding: 20px;
   margin: 20px auto;
   text-align: center;
-  max-width: 800px; /* Limitar el tamaño máximo de la tarjeta introductoria */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle efecto de profundidad */
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .intro-card h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
-  color: #ffcc00; /* Color llamativo para el título */
+  color: #ffcc00;
   margin-bottom: 10px;
+  font-family:'Mona_Sans';
 }
 
 .intro-card p {
-  font-family: 'Roboto', sans-serif;
+  font-family:'Mona_Sans';
   font-size: 1em;
-  color: #d3d3d3; /* Color gris claro para un contraste sutil */
+  color: #d3d3d3; 
   line-height: 1.6;
   margin: 0 auto;
 }
 
-  
-  /* Contenedor de las tarjetas */
+
   .product-container {
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +39,6 @@
     justify-content: center;
   }
   
-  /* Estilo de cada tarjeta */
   .product-card {
     display: flex;
     flex-direction: column;
@@ -58,17 +55,17 @@
     transform: scale(1.05);
   }
   
-  /* Imagen del producto dentro de la tarjeta */
   .product-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
   
-  /* Información del producto dentro de la tarjeta */
+
   .product-info {
     padding: 15px;
     text-align: center;
+    font-family:'Mona_Sans';
   }
   
   .product-info p {
@@ -82,10 +79,9 @@
     background-color: orange;
     color: black;
     border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Mona_Sans';
   }
   
-  /* Botón de compra */
   .buy-button {
     margin-top: 15px;
     padding: 10px;
@@ -100,6 +96,6 @@
   }
   
   .buy-button:hover {
-    background-color: #e44d26; /* Rojo oscuro */
+    background-color: #e44d26;
   }
   

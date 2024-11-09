@@ -83,3 +83,21 @@
     text-align: center;
   }
   
+  /* Botón de compra */
+  .buy-button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ff6600;
+    color: #1a0032;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    font-family:'Mona_Sans';
+  }
+  
+  .buy-button:hover {
+    background-color: #e44d26;
+  }
