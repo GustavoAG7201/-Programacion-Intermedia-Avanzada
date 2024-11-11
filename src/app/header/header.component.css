@@ -11,14 +11,12 @@
     width: 100px;
     height: auto;
     padding: 5px;
-    word-wrap: break-word; /*Para que el texto se divida si no cabe en la tarjeta xd (no jalo)*/
+    word-wrap: break-word; 
     font-family: Promt;
     font-size: 10px;
     color: whitesmoke;
     
 }
-
-
 
 a{
     color: #ffcc00 !important;
@@ -27,60 +25,7 @@ a{
 }
 
 header {
-    /* background: linear-gradient(135deg, #6D28D9, #FBBF24); */
-    /*? background-color: #170024;  Este color casi se acerca al original del logo*/
     background-color: #1a0032;
     padding: 2px;
     
 }
-
-/*! Estilos de la primer version */
-/* .inicioSesion{
-    color: black;
-}
-
-.contacto{
-    color: black;
-}
-
-
-a{
-    text-decoration: none;
-    font-family: Bungee;
-    font-size: 7px;
-    
-}
-
-table{
-    width: 100%;
-}
-
-.iconoHeader{
-    width: 20%;
-}
-
-header {
-    background: linear-gradient(135deg, #6D28D9, #FBBF24);
-    padding: 2px;
-    
-}
-
-h1{
-    font-family: Fascinate_Inline;
-    font-size: 10px;
-}
-
-td{
-    width: 50px;
-}
-
-
-
-
-td img.iconoHeader{
-    width: 50px;
-    height: 50px;
-}
-
-
- */

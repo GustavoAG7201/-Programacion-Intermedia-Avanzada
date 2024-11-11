@@ -2,8 +2,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-
 .listaDinamica1 {
     margin: 5px;
     padding: 10px;
@@ -12,14 +10,11 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-
 .listaDinamica1 img {
     border-radius: 10%;
     width: 100%; 
     height: auto;
 }
-
-
 .listaDinamica1 h5 {
     font-family: Bungee;
     color: #ffcc00;
@@ -27,8 +22,6 @@ img {
     font-size: 1.8em;
     margin-bottom: 10px;
 }
-
-
 .articListaDinamica {
     margin: 5px;
     padding: 10px;
@@ -38,7 +31,6 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-
 .articListaDinamica p {
     font-family: Bungee;
     color: #ffcc00;
@@ -46,8 +38,6 @@ img {
     font-size: 1em;
     margin: 0;
 }
-
-
 @media (max-width: 768px) {
     .listaDinamica1 h5 {
         font-size: 1.5em;
@@ -63,7 +53,6 @@ img {
         margin: 3px;
     }
 }
-
 /* Responsividad para pantallas muy pequeñas */
 @media (max-width: 480px) {
     .listaDinamica1 h5 {

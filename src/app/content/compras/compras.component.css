@@ -6,9 +6,7 @@
     text-align: center;
     padding: 20px;
     background-color: #f9f9f9;
-  }
-  
-  
+  }  
   .empty-cart {
     max-width: 600px;
     padding: 30px;
@@ -21,29 +19,22 @@
     color: #333;
     font-family:'Mona_Sans';
   }
-  
- 
   .cart-icon {
     font-size: 4em;
-    color: #cccccc;
+    color: black;
     margin-bottom: 20px;
   }
-  
- 
   .empty-cart h3 {
     font-size: 1.8em;
     color: #333;
     margin: 10px 0;
   }
-  
   .empty-cart p {
     font-size: 1em;
     color: #777;
     margin: 10px 0 20px;
     font-family:'Mona_Sans';
   }
-  
-  
   .shop-button {
     padding: 10px 20px;
     font-size: 1em;
@@ -55,12 +46,9 @@
     transition: background-color 0.3s ease;
     font-family:'Mona_Sans';
   }
-  
   .shop-button:hover {
     background-color: #e44d26;
   }
-
-  
   @media (max-width: 768px) {
     .empty-cart h3 {
       font-size: 1.5em;
