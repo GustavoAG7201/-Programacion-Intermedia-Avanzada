@@ -1,10 +1,8 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
   body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,8 +11,6 @@
     align-items: center;
     min-height: 100vh;
   }
-  
-  /* Promotions Section */
   .promotions {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -22,8 +18,6 @@
     padding: 20px;
     max-width: 1200px;
   }
-  
-  /* Individual Promotion Card */
   .promotion-card {
     background-color: #1a0032;
     border-radius: 10px;
@@ -31,50 +25,40 @@
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
   .promotion-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
-  
   .product-image {
     width: 100%;
     height: 50;
     object-fit: cover;
   }
-  
   .promotion-details {
     padding: 15px;
   }
-  
   .product-name {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: white;
   }
-  
   .discount {
     font-size: 1.1rem;
     color: #e74c3c;
     margin-bottom: 10px;
   }
-  
   .original-price {
     font-size: 1rem;
     color: #888;
     text-decoration: line-through;
   }
-  
   .strike {
     color: #bbb;
   }
-  
   .promotion-details p {
     margin: 5px 0;
   }
-  
-
   .shipping {
     background-color: #2ecc71;
     color: white;
@@ -82,8 +66,6 @@
     border-radius: 5px;
     text-align: center;
   }
-  
-  /* Botón de compra */
   .buy-button {
     margin-top: 15px;
     padding: 10px;
@@ -97,7 +79,6 @@
     transition: background-color 0.3s;
     font-family:'Mona_Sans';
   }
-  
   .buy-button:hover {
     background-color: #e44d26;
   }
