@@ -4,12 +4,20 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
+
+    /* estilos para el fondo */
+
+    background-image: url('/imagenes/fondoPrincipal.png');
+    background-position: center;
+    
   }
   .product-card {
     display: flex;
     flex-direction: column;
     width: 250px;
-    background-color: #1a0032;
+    /* background-color: #1a0032;   COLOR ORIGINAL */
+     background-color: #3a0052; 
+    /* background-color: #7a0092 ; */
     border-radius: 8px;
     overflow: hidden;
     color: white;

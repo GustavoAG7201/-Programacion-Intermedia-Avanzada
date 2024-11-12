@@ -17,9 +17,15 @@
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
+
+    /* estilos para el fondo */
+
+    background-image: url('/imagenes/fondoPrincipal.png');
+    background-position: center;
   }
   .promotion-card {
-    background-color: #1a0032;
+    /* background-color: #1a0032; */
+    background-color: #3a0052; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
