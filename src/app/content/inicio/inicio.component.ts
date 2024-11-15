@@ -14,19 +14,19 @@ export class InicioComponent {
     ]
 
      imagenes2 = [
-      {url:'/imagenes/sneaker4.jpg', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker5.jpg', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker6.jpg', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker7.jpg', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker8.jpg', texto: 'Agregar al carrito'}
+      {url:'/imagenes/sneaker4.jpg', texto: 'Agregar'},
+      {url:'/imagenes/sneaker5.jpg', texto: 'Agregar'},
+      {url:'/imagenes/sneaker6.jpg', texto: 'Agregar'},
+      {url:'/imagenes/sneaker7.jpg', texto: 'Agregar'},
+      {url:'/imagenes/sneaker8.jpg', texto: 'Agregar'}
     ]
 
     imagenes3 = [
-      {url:'/imagenes/sneaker9.jpg', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker10.jpg', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker11.png', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker12.png', texto: 'Agregar al carrito'},
-      {url:'/imagenes/sneaker13.png', texto: 'Agregar al carrito'}
+      {url:'/imagenes/sneaker9.jpg', texto: 'Agregar'},
+      {url:'/imagenes/sneaker10.jpg', texto: 'Agregar'},
+      {url:'/imagenes/sneaker11.png', texto: 'Agregar'},
+      {url:'/imagenes/sneaker12.png', texto: 'Agregar'},
+      {url:'/imagenes/sneaker13.png', texto: 'Agregar'}
     ]
     
 }
