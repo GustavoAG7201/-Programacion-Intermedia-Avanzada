@@ -21,7 +21,13 @@
 a{
     color: #ffcc00 !important;
     font-family: Bungee;
-    font-size: 10px;
+    font-size: 8px;
+}
+
+
+
+.contacto {
+    margin-right: 15px; 
 }
 
 header {
